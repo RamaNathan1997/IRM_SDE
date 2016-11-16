@@ -1,0 +1,14 @@
+                HTTP methods
+
+
+*GET,POST,PUT,DELETE,HEAD,OPTIONS are some of the HTTP methods.
+*The resource based URI /messages/10 doesn't contain the action to be performed.
+*The action is interpreted using the HTTP methods.
+*The PUT request on /messages/{messageId} with the PUT body containing the new content information is used to update a message.
+*The GET request on /messages/{messageId} is used to get a message.
+*The POST request on /messages with the request body  containing the new message is used to create a new message on the server and the response being the message id.
+*The GET request on /messages is used to get all the  messages.
+*The other HTTP methods can be similarly used for collection URI's.
+
+
+ 

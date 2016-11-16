@@ -1,0 +1,19 @@
+              REST AND HTTP
+
+
+*Roy Fielding is one of the authors of HTTP specification.
+*HTTP stands for Hyper Text Transfer Protocol.
+*It is a way to exchange and communicate information online.
+*The things that are transfered in a http is called Hypertext.
+*It contains logical links to other text,called Hyperlinks.
+*Hypertexts can be written in a popular language called Hyper Text Markup Language (HTML).
+*Resource Locations: RESTful API's have resorce based addresses or URI's.
+*GET,POST,PUT,DELETE are some of the HTTP methods.
+*Status Codes:
+       200      Success
+       500      Server Error
+       404      Not Found
+*Content Types:
+        text/xml
+      application/json
+*Content Negotiation takes place between the client and the server.

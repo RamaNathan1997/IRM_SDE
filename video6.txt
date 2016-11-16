@@ -1,0 +1,25 @@
+              METHOD IDEMPOTENCE
+
+Classification -I:
+
+*GET method is read-only.
+*Other methods are write methods.
+
+Classification -II:
+
+*GET method is repeatable safely.
+*DELETE method is also repeatable safely.
+*PUT method is also repeatable safely.
+*POST method can't be repeated safely as each time it is used , anew message is created.
+
+Classification -III:
+
+*GET,DELETE & PUT methods are idempotent.
+*POST method is not idempotent.
+
+IDEMPOTENT:
+         It is the property of certain operations in mathematics and computer science, that can be applied multiple times without changing the result beyond the initial application.
+
+*A resource should be created only via POST method.
+
+

@@ -1,0 +1,10 @@
+                     JAX RS
+
+*There are many libraries in Java to develop RESTful API's.
+
+*JAX RS has a lot of interfaces and annotations.
+
+*These interfaces can be implemented using the classes in the Jersey or RESTEasy libraries.
+
+*Jersey is the 'Reference Implementation' for the JAX RS specification.
+ 

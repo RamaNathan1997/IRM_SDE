@@ -1,0 +1,35 @@
+                 REST RESPONSE
+
+
+*JSON is the best format to send the response to the client
+
+*The format returned can be interpreted using the metadata contained in the message header.
+
+*Every HTTP response will have a status code.
+
+*Status codes have 3 digits.
+
+*The first digit indicates the class.
+
+           1xx    informational
+
+           2xx    acknowledgement
+             200 OK
+             201 created
+             204 no content
+
+           3xx    redirection  
+             302 found
+             304 not modified
+             307 temporary redirect
+           
+           4xx    client error
+             400 bad request
+             401 unauthorized
+             403 forbidden
+             404 not found
+             415 unsupported media type
+
+           5xx    server error
+             500 internal server error
+             

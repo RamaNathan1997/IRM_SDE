@@ -1,0 +1,9 @@
+                     HATEOAS
+
+*It stands for Hypermedia As The Engine Of Application State.
+
+*The response from the server can contain hyperlinks to other URI's also.
+
+*This can be achieved using the href attribute.
+
+*The rel attribute can be used to specify the relation to the link resource.

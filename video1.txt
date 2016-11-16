@@ -1,0 +1,23 @@
+                 INTRODUCTION
+
+
+*Web Services:
+           Web Services are services that are exposed to the internet for programmatic access.
+*Web Services are of two types :
+            1.REST Web Services.
+            2.SOAP Web Services.
+*Web Service characteristics:
+ ->  exchange of data happens over the web over http
+                 data
+ -> client     <-------      web services
+ -> The message format between the client and the server is called Protocol,which is standardized in some web services.
+    eg: SOAP(Simple Object Access Protocol)
+ -> REST Web Service has no protocol.The client can send messages in XML,JSON,text or any other format.
+ -> Messages can be exchanged between the client and the server in all HTTP methods.
+ -> RESTful Web Services have no service definition.
+ -> Unlike SOAP,there are no specifications for RESTful Web Services.
+ -> The term REST was coined by Roy Fielding.
+ -> REST stands for REpresentational State Transfer.
+ -> It is a set of architectural styles or guidlines for an application.
+        REST   +     Web Services   =   RESTful Web 
+                                         Services.

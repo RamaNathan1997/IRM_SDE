@@ -1,0 +1,19 @@
+               COLLECTION URI'S
+
+*There are of resource URI's.
+      1.instance resource URI
+      2.collection resource URI's.
+
+*Instance resource URI's identify a specific resource instance by using a particular id in the URI.
+
+* /messages can be used to get all the messages.
+
+* It is called a collection URI as it represents a set of instances of a particular resource.
+
+*The results of a collection URI can be filtered using the query parameters like offset,limit,year etc.,
+
+*For example, /messages?offset=30&limit=10 lists the  10 messages starting from the message with id 30.
+
+* /messages?year=2014 lists all the messages made in the year 2014.
+
+

@@ -1,0 +1,18 @@
+              RESOURCE URI'S
+
+
+*An application called Messenger where users can post,comment,like & share messages.
+*The Resource based URI for profile would be
+        /profiles/{profileName}
+*The Resource based URI for message would be
+        /messages/{messageId}
+*The resources used in the URI's are nouns not verbs.
+*Also,they are plural not singular.
+*One message can have many comments.Hence the Resource based URI for comment would be
+     /messages/{messageId}/comments/{commentId}
+*The Resource based URI for like would be
+      /messages/{messageId}/likes/{likeId}
+*The Resource based URI for share would be
+      /messages/{messageId}/shares/{shareId}
+
+        

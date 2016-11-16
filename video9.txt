@@ -1,0 +1,14 @@
+             THE RICHARDSON MATURITY
+
+
+*The Richardson model defines four levels from level 0 to 3.
+
+*Level 0 is often called the Swamp of POX(Plain Old XML).
+
+*Level 0 means that the API is not RESTful.
+
+*Level 1 has individual URI's for each resource.
+
+*Level 2 has the right usage of HTTP methods & Status codes for each of the URI's.
+
+*Level 3 implements HATEOAS ,where the responses have links that the clients can use.It means that the API is fully RESTful.
