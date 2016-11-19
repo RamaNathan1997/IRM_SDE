@@ -1,0 +1,46 @@
+                SESSION2_SUMMARY
+SDLC:
+
+     The systems development life cycle (SDLC), also referred to as the application development life-cycle, is a term used in systems engineering, information systems and software engineering to describe a process for planning, creating, testing, and deploying an information system.The systems development life-cycle concept applies to a range of hardware and software configurations, as a system can be composed of hardware only, software only, or a combination of both.
+
+DESIGN DOCUMENTATION:
+
+           A software design description (software design document or SDD) is a written description of a software product, that a software designer writes in order to give a software development team overall guidance to the architecture of the software project.
+
+SharePoint is an all-in-one portal development and document management tool, with wiki pages tacked on.
+
+Confluence is an all-in-one document development, document publishing and collaboration tool, with management of external documents tacked on.
+
+CODE REVIEW TOOLS:
+
+         Code review is systematic examination of computer source code. It is intended to find mistakes overlooked in the initial development phase, improving the overall quality of software. Reviews are done in various forms such as pair programming, informal walkthroughs, and formal inspections.
+
+Gerrit is a free, web-based team code collaboration tool. Software developers in a team can review each other's modifications on their source code using a Web browser and approve or reject those changes. It integrates closely with Git, a distributed version control system.
+
+UNIT TESTING:
+      
+         Unit testing is a software testing method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures, are tested to determine whether they are fit for use.
+
+JUnit is a unit testing framework for the Java programming language. JUnit has been important in the development of test-driven development, and is one of a family of unit testing frameworks which is collectively known as xUnit that originated with SUnit.
+
+TestNG is a testing framework for the Java programming language created by Cédric Beust and inspired by JUnit and NUnit. The design goal of TestNG is to cover a wider range of test categories: unit, functional, end-to-end, integration, etc., with more powerful and easy-to-use functionalities.
+
+BUILD SYSTEMS:
+   
+         Build systems are software tools designed to automate the process of program compilation. Build systems come in various forms, and are used for a variety of software build tasks.
+
+Jenkins is a leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
+
+BUG SYSTEM:
+     
+        A bug tracking system or defect tracking system is a software application that keeps track of reported software bugs in software development projects. It may be regarded as a type of issue tracking system.
+
+PROGRAMMING PARADIGMS:
+     
+        Programming paradigms are a way to classify programming languages according to the style of computer programming. Features of various programming languages determine which programming paradigms they belong to; as a result, some languages fall into only one paradigm, while others fall into multiple paradigms.
+
+COMPILED LANGUAGE Vs INTERPRETED LAGUAGE:
+          
+         A compiled language is one where the program, once compiled, is expressed in the instructions of the target machine. For example, an addition "+" operation in your source code could be translated directly to the "ADD" instruction in machine code.
+
+An interpreted language is one where the instructions are not directly executed by the target machine, but instead read and executed by some other program (which normally is written in the language of the native machine). For example, the same "+" operation would be recognised by the interpreter at run time, which would then call its own "add(a,b)" function with the appropriate arguments, which would then execute the machine code "ADD" instruction.
