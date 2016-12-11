@@ -1,0 +1,89 @@
+                SESSION4-SUMMARY
+
+PATH environment variable:
+
+The PATH is the system variable that your operating system uses to locate needed executables from the command line or Terminal window.
+The PATH system variable can be set using System Utility in control panel on Windows, or in your shell's startup file on Linux and Solaris.
+Making changes to the system PATH variable is typically not necessary for computers running Windows or Mac OS X.
+
+
+CLASSPATH environment variable:
+
+The CLASSPATH variable is one way to tell applications, including the JDK tools, where to look for user classes. Classes that are part of the JRE, JDK platform, and extensions should be defined through other means, such as the bootstrap class path or the extensions directory.
+
+
+CLASSLOADER:
+
+The Java Classloader is a part of the Java Runtime Environment that dynamically loads Java classes into the Java Virtual Machine. Usually classes are only loaded on demand. The Java run time system does not need to know about files and file systems because of classloaders.
+
+
+Types of Classloaders:
+
+Java class loaders can be broadly classified into below categories:
+
+        1.  Bootstrap Class Loader
+
+Bootstrap class loader loads java’s core classes like java.lang, java.util etc. These are classes that are part of java runtime environment. Bootstrap class loader is native implementation and so they may differ across different JVMs.
+
+        2.  Extensions Class Loader
+
+JAVA_HOME/jre/lib/ext contains jar packages that are extensions of standard core java classes. Extensions class loader loads classes from this ext folder. Using the system environment propery java.ext.dirs you can add ‘ext’ folders and jar files to be loaded using extensions class loader.
+
+        3.  System Class Loader
+
+Java classes that are available in the java classpath are loaded using System class loader.
+
+
+Rules for naming a file in Java:
+
+->   There can be only one public class per source code file.
+
+->   If there is a public class in a file, the name of the file must match the name of the public class. For example, a class declared as public class Dog { } must be in a source code file named Dog.java.
+
+->  A file can have more than one non~public class.
+
+->  Files with non~public classes can have a name that does not match any of the classes in the file
+
+
+Useful Shortcuts in Eclipse for Java :
+
+-> F3 — Jumps to include file or variable declaration/definition. If you want to use the mouse for this, press the Ctrl key and hover over the source with the mouse. Shortcut for Navigate > Open Declaration.
+
+-> Alt+Left and Alt+Right — Navigate through my source to back and forward. Shortcuts for Navigate > Back and Navigate > Forward and Backward.
+
+-> Ctrl+Space — Content assist which proposes methods/member variables and more based on my typing. Start typing with a. and it will show me the struct members. Shortcut for Edit > Content Assist.
+
+-> Ctrl+3 — Quick Access let me go to views, perspectives and more. Shortcut for Window > Navigation > Quick Access.
+
+-> Ctrl+M — Maximizes the current view or editor. Press Ctrl+M again and it goes back to the previous size. Shortcut for Window > Navigation > Maximize Active View or Editor.
+
+-> Ctrl+Shift+/ — Insert block comment, remove it again with Ctrl+Shift+\. Shortcut for Source > Add Block Comment. Depending on your keyboard layout you might re-assign this short cut (e.g. if on your keyboard ‘/’ is only reached with the Shift key).
+
+->Ctrl+Shift+T — Open an element with wildcard support. Shortcut for Navigate > Open Element.
+
+-> Ctrl+F7— Switch to next view. Pressing again Ctrl+F7 let you iterate to the next view. Use Ctrl+Shift+F7 for previous view. Shortcut for Window > Navigation > Next View.
+
+-> Ctrl+Alt+h — Opens the call hierarchy. Shortcut for Navigate > Open Call Hierarchy.
+
+-> Ctrl-O — Open the Quick Outline View. Shortcut for Navigate > Quick Outline.
+
+
+Command Line Options used with java and javac:
+
+The following commands have a -classpath option that replaces the path or paths specified by the CLASSPATH environment variable while the tool runs:   -> java, jdb, javac, javah and jdeps.
+
+The -classpath option is the recommended option for changing class path settings, because each application can have the class path it needs without interfering with any other application.The java command also has a -cp option that is an abbreviation for -classpath.
+
+For very special cases, both the java and javac commands have options that let you change the path they use to find their own class libraries. Most users will never need to use those options.
+
+ -version is used to check the java version installed.
+
+Example:
+
+C:\Users\username>java -version
+java version "1.6.0_27"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.6.0_27-b07)
+Java HotSpot(TM) Client VM (build 1.6.0_27-b13, mixed mode, sharing)
+
+C:\Users\username>javac -version
+javac 1.6.0_27
